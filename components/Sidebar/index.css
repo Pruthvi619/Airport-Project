@@ -1,0 +1,43 @@
+.sidebar {
+  width: 250px;
+  background-color: white;
+  color: black;
+  height: 100%;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  z-index: 900;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.airports-title-selected {
+  background-color: #6c757d;
+}
+
+.side-panel-heading {
+  color: black;
+  font-size: 14px;
+  padding: 8px 20px;
+}
+
+nav ul ul {
+  padding-left: 20px;
+}
+
+.sidebar-text {
+  margin-left: 10px;
+}

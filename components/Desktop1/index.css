@@ -1,0 +1,87 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin: 0;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul ul {
+  padding-left: 20px;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+}
+
+.main-content {
+  margin-top: 4rem; /* Adjust to match the height of the header */
+  margin-left: 250px; /* Adjust to match the width of the sidebar */
+  padding: 1rem;
+  background-color: #f8f9fa; /* Example background color */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-new {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th input[type="checkbox"],
+table td input[type="checkbox"] {
+  margin: 0;
+}
+
+.action-button {
+  width: 18px;
+  height: 18px;
+  padding: 1.04px 1.04px 1.02px 1.02px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 10px;
+}
+
+.side-panel-heading {
+  font-weight: bold;
+}
+
+.icon-arrow {
+  padding-top: 15px;
+  font-weight: bold;
+}
+.image {
+  width: 18px;
+  height: 18px;
+}

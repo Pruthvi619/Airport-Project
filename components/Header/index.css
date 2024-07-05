@@ -1,0 +1,31 @@
+.header {
+  background-color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure header is on top */
+  height: 8vh;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-right: 1rem;
+  color: black;
+}
+
+.header-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1050px;
+}
+
+.image-container {
+  align-content: flex-end;
+}
